@@ -1,0 +1,165 @@
+:root {
+    --tag-black: #242121;
+    --text-white: #faf7ff;
+    --tag-white: #d2ced6;
+    --icon-bg-purple: #c9c9ff;
+    --icon-bg-green: #ffd6ff;
+    --radio-row-border: #7676834d;
+    --input-border: #76768399;
+    --text-bottom-color: #7071c2;
+  }
+  
+  .card_component {
+    background-color: #fafafa;
+    border: 1px solid #76768333;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    max-width: 860px;
+    margin: auto;
+  }
+  
+  .card_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tags_component {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .tags_content {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .tag_black,
+  .tag_white {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .heading_big_component {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .input_field_wrap {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .var_text_input_field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--input-border);
+    border-radius: 8px;
+  }
+  
+  .radio_list_row {
+    padding: 10px;
+    border: 1px solid var(--radio-row-border);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .button_gen {
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #d276fa, #9b71ee);
+    color: #fff;
+    cursor: pointer;
+  }
+:root {
+  --tag-black: #242121;
+  --text-white: #faf7ff;
+  --tag-white: #d2ced6;
+  --icon-bg-purple: #c9c9ff;
+  --icon-bg-green: #ffd6ff;
+  --radio-row-border: #7676834d;
+  --input-border: #76768399;
+  --text-bottom-color: #7071c2;
+}
+
+.card_component {
+  background-color: #fafafa;
+  border: 1px solid #76768333;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  max-width: 860px;
+  margin: auto;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tags_component {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tags_content {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.tag_black,
+.tag_white {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.heading_big_component {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.input_field_wrap {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.var_text_input_field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+}
+
+.radio_list_row {
+  padding: 10px;
+  border: 1px solid var(--radio-row-border);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button_gen {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #d276fa, #9b71ee);
+  color: #fff;
+  cursor: pointer;
+}
+  
